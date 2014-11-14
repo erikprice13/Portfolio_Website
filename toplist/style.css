@@ -9,6 +9,11 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 } 
+.Title
+{
+	background-color: #33BEBE;
+	color: white;
+}
 .app 
 {
     display: -webkit-flex;
