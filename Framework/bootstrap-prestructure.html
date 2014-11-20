@@ -3,10 +3,11 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="style.css">
   </head>
     <body>
       <div class="container">
@@ -30,9 +31,9 @@
             <p><a href="https://github.com/erikprice13/Portfolio_Website">Link to project</a></p>
           </div>
           <div class="col-md-6">
-            <img src="./bootstrap-prestructure_files/555x300" class="img-responsive">
-            <h3>Placeholder</h3>
-            <p><a href="http://github.com/">No project yet</a></p>
+            <img src="imgs/page-mock.png" class="img-responsive" data-toggle="modal" data-target="#project2">
+            <h3>From PDF to HTML</h3>
+            <p><a href="https://github.com/erikprice13/HTML_CSS_Project">Link to project</a></p>
           </div>
         </div>
         <div>
@@ -58,6 +59,23 @@
             <div class="modal-body">
               <img class="img-responsive" src="imgs/website.png">
               This was my first project in my nanodegree program from Udacity. I learned a lot about the basics of HTML and CSS.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal2 -->
+      <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+            </div>
+            <div class="modal-body">
+              <img class="img-responsive" src="imgs/page-mock-full.png">
+              The final project of intro to HTML and CSS. I had to match the picture above (PDF) with a website I created myself. Matched it with a 0.85% discrepancy. 
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
